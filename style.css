@@ -219,6 +219,12 @@ footer{background:var(--navy-dark);color:#a8b5d6;padding:70px 0 30px;margin-top:
   .footer-grid{grid-template-columns:1fr;gap:30px}
   .stats-grid{grid-template-columns:1fr 1fr}
   .contact-grid{grid-template-columns:1fr}
+@media (max-width:600px){
+  .nav-inner .btn-primary{display:none}
+  .brand-text .brand-name{font-size:15px}
+  .brand-text p{font-size:9px}
+  .logo{width:38px;height:38px}
+}
 }
 @media (max-width:480px){
   .container{padding:0 18px}
